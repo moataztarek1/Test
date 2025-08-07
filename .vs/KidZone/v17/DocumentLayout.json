@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Back-end\\ITI Graduation Project\\KidZone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\services\\someservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\services\\someservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\kidzone.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\kidzone.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KidZone.API.http",
+              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\KidZone.API.http",
+              "RelativeDocumentMoniker": "KidZone.API\\KidZone.API.http",
+              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\KidZone.API.http",
+              "RelativeToolTip": "KidZone.API\\KidZone.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-08-07T21:11:19.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SomeService.cs",
+              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Services\\SomeService.cs",
+              "RelativeDocumentMoniker": "KidZone.API\\Services\\SomeService.cs",
+              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Services\\SomeService.cs",
+              "RelativeToolTip": "KidZone.API\\Services\\SomeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T21:11:06.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\appsettings.json",
+              "RelativeDocumentMoniker": "KidZone.API\\appsettings.json",
+              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\appsettings.json",
+              "RelativeToolTip": "KidZone.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-07T21:02:16.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Program.cs",
+              "RelativeDocumentMoniker": "KidZone.API\\Program.cs",
+              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Program.cs",
+              "RelativeToolTip": "KidZone.API\\Program.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAQwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T20:59:01.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "KidZone.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "KidZone.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwFYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T20:55:21.248Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 256,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
