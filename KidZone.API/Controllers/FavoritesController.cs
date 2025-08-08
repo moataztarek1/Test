@@ -13,7 +13,6 @@ namespace KidZone.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Parent")]
     public class FavoriteController : ControllerBase
     {
         private readonly DataContext _context;

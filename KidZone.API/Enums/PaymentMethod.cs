@@ -10,7 +10,6 @@ namespace KidZone.Domain.Enums
     {
         Visa,
         MasterCard,
-        VodafoneCash,
-        Fawry
+        PayPal
     }
 }

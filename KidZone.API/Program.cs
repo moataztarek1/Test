@@ -14,6 +14,7 @@ using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace KidZone.API
 {
@@ -28,7 +29,13 @@ namespace KidZone.API
 
             builder.Services.AddScoped<SomeService>();
             builder.Services.AddHttpContextAccessor();
-
+            //enum store as string
+            builder.Services
+                .AddControllers()
+                .AddJsonOptions(options =>
+                {
+                    options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+                });
             // 1. EF & Identity
 
             builder.Services.AddDbContext<DataContext>(options =>
@@ -62,8 +69,8 @@ namespace KidZone.API
                     RoleClaimType = ClaimTypes.Role
                 };
             });
-
-
+            //Auto check sub status every 24h  
+            builder.Services.AddHostedService<SubscriptionExpiryService>();
 
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KidZone.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aae132bb394ae28be2f5c167d86f67d1f2f30dfa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e129650242fdf01cf2078876fd7b4c8c0d9aa55a")]
 [assembly: System.Reflection.AssemblyProductAttribute("KidZone.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KidZone.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

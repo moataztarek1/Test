@@ -12,7 +12,6 @@ namespace KidZone.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class FeedbackController : ControllerBase
     {
         private readonly DataContext context;
@@ -77,6 +76,7 @@ namespace KidZone.API.Controllers
         }
 
         [HttpPost("AddComment")]
+        [Authorize]
         public async Task<ActionResult> AddComment([FromBody] CreateCommentDto dto)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -96,6 +96,7 @@ namespace KidZone.API.Controllers
         }
 
         [HttpPut("UpdateComment")]
+        [Authorize]
         public async Task<IActionResult> UpdateComment([FromBody] UpdateCommentDto dto)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -117,6 +118,7 @@ namespace KidZone.API.Controllers
         }
 
         [HttpDelete("DeleteComment")]
+        [Authorize]
         public async Task<IActionResult> DeleteComment(int commentId)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -176,6 +178,7 @@ namespace KidZone.API.Controllers
         }
 
         [HttpPost("AddOrUpdateRating")]
+        [Authorize]
         public async Task<IActionResult> AddOrUpdateRating([FromBody] AddOrUpdateRatingDto dto)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -210,6 +213,7 @@ namespace KidZone.API.Controllers
         }
 
         [HttpDelete("DeleteRating/{contentId}")]
+        [Authorize]
         public async Task<IActionResult> DeleteRating(int contentId)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);

@@ -43,7 +43,6 @@ namespace KidZone.API.Controllers
             if (!result.Succeeded)
                 return BadRequest(result.Errors);
 
-            // إضافة role Parent
             await _userManager.AddToRoleAsync(user, "Parent");
 
             return Ok(new { message = "Parent registered successfully" });
@@ -89,19 +88,23 @@ namespace KidZone.API.Controllers
             });
         }
 
-        [HttpGet("admin")]
-        [Authorize(Roles = "Admin")]
-        public IActionResult AdminOnly()
-        {
-            return Ok("Welcome Admin, you have access to this endpoint.");
-        }
 
-        [HttpGet("parent")]
-        [Authorize(Roles = "Parent")]
-        public IActionResult ParentOnly()
-        {
-            return Ok("Welcome Parent, you have access to this endpoint.");
-        }
+
+        #region Test
+        //[HttpGet("admin")]
+        //[Authorize(Roles = "Admin")]
+        //public IActionResult AdminOnly()
+        //{
+        //    return Ok("Welcome Admin, you have access to this endpoint.");
+        //}
+
+        //[HttpGet("parent")]
+        //[Authorize(Roles = "Parent")]
+        //public IActionResult ParentOnly()
+        //{
+        //    return Ok("Welcome Parent, you have access to this endpoint.");
+        //} 
+        #endregion
 
         private string GenerateJwtToken(User user, string role)
         {

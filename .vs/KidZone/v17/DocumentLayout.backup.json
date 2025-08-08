@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "C:\\Back-end\\ITI Graduation Project\\KidZone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\dtos\\userratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\dtos\\userratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\dtos\\updatevideodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\dtos\\updatevideodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\dtos\\updatestorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\dtos\\updatestorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\dtos\\readratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\dtos\\readratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\dtos\\readcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\dtos\\readcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\dtos\\favoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\dtos\\favoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|c:\\back-end\\iti graduation project\\kidzone\\kidzone.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B41FE7-BCCB-412A-9CC4-50A7B6025F13}|KidZone.API\\KidZone.API.csproj|solutionrelative:kidzone.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,132 +39,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FeedbackController.cs",
-              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Controllers\\FeedbackController.cs",
-              "RelativeDocumentMoniker": "KidZone.API\\Controllers\\FeedbackController.cs",
-              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Controllers\\FeedbackController.cs*",
-              "RelativeToolTip": "KidZone.API\\Controllers\\FeedbackController.cs*",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAUwNYAAABIAAAAAAAAAA==",
+              "Title": "SubscriptionController.cs",
+              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Controllers\\SubscriptionController.cs",
+              "RelativeDocumentMoniker": "KidZone.API\\Controllers\\SubscriptionController.cs",
+              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Controllers\\SubscriptionController.cs",
+              "RelativeToolTip": "KidZone.API\\Controllers\\SubscriptionController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T06:17:18.681Z",
+              "WhenOpened": "2025-08-08T18:11:52.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserRatingDto.cs",
-              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\UserRatingDto.cs",
-              "RelativeDocumentMoniker": "KidZone.API\\DTOs\\UserRatingDto.cs",
-              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\UserRatingDto.cs",
-              "RelativeToolTip": "KidZone.API\\DTOs\\UserRatingDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "KidZone.API\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Data\\DataContext.cs",
+              "RelativeToolTip": "KidZone.API\\Data\\DataContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T06:15:04.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T18:11:46.489Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UpdateVideoDto.cs",
-              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\UpdateVideoDto.cs",
-              "RelativeDocumentMoniker": "KidZone.API\\DTOs\\UpdateVideoDto.cs",
-              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\UpdateVideoDto.cs",
-              "RelativeToolTip": "KidZone.API\\DTOs\\UpdateVideoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ContentController.cs",
+              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Controllers\\ContentController.cs",
+              "RelativeDocumentMoniker": "KidZone.API\\Controllers\\ContentController.cs",
+              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Controllers\\ContentController.cs",
+              "RelativeToolTip": "KidZone.API\\Controllers\\ContentController.cs",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAIwBMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T06:15:02.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T18:10:46.952Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UpdateStoryDto.cs",
-              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\UpdateStoryDto.cs",
-              "RelativeDocumentMoniker": "KidZone.API\\DTOs\\UpdateStoryDto.cs",
-              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\UpdateStoryDto.cs",
-              "RelativeToolTip": "KidZone.API\\DTOs\\UpdateStoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "KidZone.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "KidZone.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T06:14:59.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T18:10:42.978Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "KidZone.API\\DTOs\\RegisterDto.cs",
-              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\RegisterDto.cs",
-              "RelativeToolTip": "KidZone.API\\DTOs\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "KidZone.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "KidZone.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T06:14:58.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReadRatingDto.cs",
-              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\ReadRatingDto.cs",
-              "RelativeDocumentMoniker": "KidZone.API\\DTOs\\ReadRatingDto.cs",
-              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\ReadRatingDto.cs",
-              "RelativeToolTip": "KidZone.API\\DTOs\\ReadRatingDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T06:14:54.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReadCommentDto.cs",
-              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\ReadCommentDto.cs",
-              "RelativeDocumentMoniker": "KidZone.API\\DTOs\\ReadCommentDto.cs",
-              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\ReadCommentDto.cs",
-              "RelativeToolTip": "KidZone.API\\DTOs\\ReadCommentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T06:14:53.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\LoginDto.cs",
-              "RelativeDocumentMoniker": "KidZone.API\\DTOs\\LoginDto.cs",
-              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\LoginDto.cs",
-              "RelativeToolTip": "KidZone.API\\DTOs\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T06:14:51.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FavoriteDto.cs",
-              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\FavoriteDto.cs",
-              "RelativeDocumentMoniker": "KidZone.API\\DTOs\\FavoriteDto.cs",
-              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\DTOs\\FavoriteDto.cs",
-              "RelativeToolTip": "KidZone.API\\DTOs\\FavoriteDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T06:14:25.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FavoritesController.cs",
-              "DocumentMoniker": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Controllers\\FavoritesController.cs",
-              "RelativeDocumentMoniker": "KidZone.API\\Controllers\\FavoritesController.cs",
-              "ToolTip": "C:\\Back-end\\ITI Graduation Project\\KidZone\\KidZone.API\\Controllers\\FavoritesController.cs",
-              "RelativeToolTip": "KidZone.API\\Controllers\\FavoritesController.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAEwG0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T03:13:39.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T18:10:31.135Z"
             }
           ]
         },

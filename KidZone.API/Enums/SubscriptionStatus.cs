@@ -10,6 +10,7 @@ namespace KidZone.Domain.Enums
     {
         Active,
         Cancelled,
-        Expired
+        Expired,
+        Pending
     }
 }

@@ -537,5 +537,136 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KidZone.API.Controllers.SubscriptionController",
+    "Method": "GetPlanById",
+    "RelativePath": "api/Subscription/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KidZone.API.Controllers.SubscriptionController",
+    "Method": "UpdatePlan",
+    "RelativePath": "api/Subscription/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "KidZone.API.DTOs.CreateSubscriptionPlanDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KidZone.API.Controllers.SubscriptionController",
+    "Method": "DeletePlan",
+    "RelativePath": "api/Subscription/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KidZone.API.Controllers.SubscriptionController",
+    "Method": "CheckSubscriptionStatus",
+    "RelativePath": "api/Subscription/check-status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KidZone.API.Controllers.SubscriptionController",
+    "Method": "CreatePlan",
+    "RelativePath": "api/Subscription/Create-Plans",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "KidZone.API.DTOs.CreateSubscriptionPlanDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KidZone.API.Controllers.SubscriptionController",
+    "Method": "CreateSubscriptionWithPayment",
+    "RelativePath": "api/Subscription/create-SubScriptionWithPayment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "KidZone.API.DTOs.SubscriptionRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KidZone.API.Controllers.SubscriptionController",
+    "Method": "GetMySubscriptions",
+    "RelativePath": "api/Subscription/MySubscriptions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KidZone.API.Controllers.SubscriptionController",
+    "Method": "GetPlans",
+    "RelativePath": "api/Subscription/plans",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KidZone.API.Controllers.SubscriptionController",
+    "Method": "Subscribe",
+    "RelativePath": "api/Subscription/subscribe/{planId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "planId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

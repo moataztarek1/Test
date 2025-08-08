@@ -23,7 +23,7 @@ namespace KidZone.API.Controllers
             _context = context;
         }
 
-        // ========================= CREATE =========================
+        // Create
 
         [HttpPost("video")]
         [Authorize(Roles = "Admin")]
@@ -99,7 +99,7 @@ namespace KidZone.API.Controllers
             return Ok(new { message = "Story content created successfully", contentId = content.ContentID });
         }
 
-        // ========================= READ =========================
+        // Read
         [HttpGet("videos")]
         public async Task<IActionResult> GetAllVideos()
         {
@@ -198,7 +198,7 @@ namespace KidZone.API.Controllers
             return Ok(result);
         }
 
-        // ========================= UPDATE =========================
+        // Update
 
         [HttpPut("video/{id}")]
         [Authorize(Roles = "Admin")]
@@ -272,7 +272,7 @@ namespace KidZone.API.Controllers
             return Ok(new { message = "Story content updated successfully" });
         }
 
-        // ========================= DELETE =========================
+        // Delete
 
         [HttpDelete("{id}")]
         [Authorize(Roles = "Admin")]
