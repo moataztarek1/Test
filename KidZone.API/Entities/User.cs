@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace KidZone.Domain.Entities
 {
-    public class User:IdentityUser<int>
+    public class User:IdentityUser
     {
         public string FullName { get; set; }
         public string? Gender { get; set; }

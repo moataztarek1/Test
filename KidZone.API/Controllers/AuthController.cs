@@ -19,145 +19,117 @@ namespace KidZone.API.Controllers
     {
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
-        private readonly IConfiguration _configuration;
-        private readonly RoleManager<IdentityRole<int>> _roleManager;
+        private readonly IConfiguration _config;
 
-        public AuthController(UserManager<User> userManager, SignInManager<User> signInManager, IConfiguration configuration,RoleManager<IdentityRole<int>> roleManager)
+        public AuthController(UserManager<User> userManager, SignInManager<User> signInManager, IConfiguration config)
         {
             _userManager = userManager;
             _signInManager = signInManager;
-            _configuration = configuration;
-            _roleManager = roleManager;
+            _config = config;
         }
 
-        [HttpPost("register")]
-        public async Task<IActionResult> Register(RegisterDto dto)
+        [HttpPost("register-parent")]
+        public async Task<IActionResult> RegisterParent(RegisterDto model)
         {
             var user = new User
             {
-                UserName = dto.Email,
-                Email = dto.Email,
-                FullName = dto.FullName,
-                Gender = dto.Gender
+                UserName = model.Email,
+                Email = model.Email,
+                FullName = model.FullName
             };
 
-            var result = await _userManager.CreateAsync(user, dto.Password);
+            var result = await _userManager.CreateAsync(user, model.Password);
+
             if (!result.Succeeded)
                 return BadRequest(result.Errors);
 
-            var role = string.IsNullOrEmpty(dto.Role) ? UserRole.Parent.ToString() : dto.Role;
+            // إضافة role Parent
+            await _userManager.AddToRoleAsync(user, "Parent");
 
-            if (!await _roleManager.RoleExistsAsync(role))
-                return BadRequest("Invalid role.");
-
-            await _userManager.AddToRoleAsync(user, role);
-
-            return Ok("Registration successful.");
-        }
-
-        [HttpPost("create-initial-admin")]
-        public async Task<IActionResult> CreateInitialAdmin(RegisterDto dto)
-        {
-            var existingAdmins = await _userManager.GetUsersInRoleAsync(UserRole.Admin.ToString());
-            if (existingAdmins.Any())
-                return BadRequest("Initial admin already exists.");
-
-            var user = new User
-            {
-                UserName = dto.Email,
-                Email = dto.Email,
-                FullName = dto.FullName,
-                Gender = dto.Gender,
-            };
-
-            var result = await _userManager.CreateAsync(user, dto.Password);
-            if (!result.Succeeded)
-                return BadRequest(result.Errors);
-
-            await _userManager.AddToRoleAsync(user, UserRole.Admin.ToString());
-
-            return Ok("Initial admin created.");
+            return Ok(new { message = "Parent registered successfully" });
         }
 
         [HttpPost("register-admin")]
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> RegisterAdmin(RegisterDto dto)
+        public async Task<IActionResult> RegisterAdmin(RegisterDto model)
         {
-            try
+            var user = new User
             {
-                var user = new User
-                {
-                    UserName = dto.Email,
-                    Email = dto.Email,
-                    FullName = dto.FullName,
-                    Gender = dto.Gender,
-                };
-
-                var result = await _userManager.CreateAsync(user, dto.Password);
-                if (!result.Succeeded)
-                    return BadRequest(result.Errors);
-
-                await _userManager.AddToRoleAsync(user, UserRole.Admin.ToString());
-
-                return Ok("Admin created successfully.");
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Exception: {ex.Message}");
-            }
-        }
-
-
-
-        [HttpPost("login")]
-        public async Task<IActionResult> Login(LoginDto dto)
-        {
-            var user = await _userManager.FindByEmailAsync(dto.Email);
-            if (user == null)
-                return Unauthorized("Invalid Email or Password");
-
-            var result = await _signInManager.CheckPasswordSignInAsync(user, dto.Password, false);
-            if (!result.Succeeded)
-                return Unauthorized("Invalid Email or Password");
-
-            var roles = await _userManager.GetRolesAsync(user);
-            var token = GenerateJwtToken(user, roles);
-
-            return Ok(new { token, roles });
-        }
-
-
-
-
-
-        private string GenerateJwtToken(User user, IList<string> roles)
-        {
-            var claims = new List<Claim>
-            {
-                new Claim(JwtRegisteredClaimNames.Sub, user.Email),
-                new Claim("uid", user.Id.ToString()),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+                UserName = model.Email,
+                Email = model.Email,
+                FullName = model.FullName
             };
 
-            foreach (var role in roles)
-            {
-                claims.Add(new Claim(ClaimTypes.Role, role));
-            }
+            var result = await _userManager.CreateAsync(user, model.Password);
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!));
+            if (!result.Succeeded)
+                return BadRequest(result.Errors);
+
+            await _userManager.AddToRoleAsync(user, "Admin");
+
+            return Ok(new { message = "Admin registered successfully" });
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(LoginDto model)
+        {
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null) return Unauthorized("Invalid email or password");
+
+            var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
+            if (!result.Succeeded) return Unauthorized("Invalid email or password");
+
+            var roles = await _userManager.GetRolesAsync(user);
+
+            var token = GenerateJwtToken(user, roles.FirstOrDefault());
+
+            return Ok(new
+            {
+                token,
+                role = roles.FirstOrDefault()
+            });
+        }
+
+        [HttpGet("admin")]
+        [Authorize(Roles = "Admin")]
+        public IActionResult AdminOnly()
+        {
+            return Ok("Welcome Admin, you have access to this endpoint.");
+        }
+
+        [HttpGet("parent")]
+        [Authorize(Roles = "Parent")]
+        public IActionResult ParentOnly()
+        {
+            return Ok("Welcome Parent, you have access to this endpoint.");
+        }
+
+        private string GenerateJwtToken(User user, string role)
+        {
+            //Console.WriteLine($"GenerateJwtToken -> User.Id: {user.Id}");
+            //Console.WriteLine($"GenerateJwtToken -> User.Email: {user.Email}");
+
+            var claims = new[]
+            {
+                new Claim(JwtRegisteredClaimNames.Sub, user.Email),          
+                new Claim(ClaimTypes.NameIdentifier, user.Id),             
+                new Claim("uid", user.Id),                                
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim(ClaimTypes.Role, role ?? "")
+            };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(
-                issuer: _configuration["Jwt:Issuer"],
-                audience: _configuration["Jwt:Audience"],
+                issuer: _config["Jwt:Issuer"],
+                audience: _config["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddHours(3),
+                expires: DateTime.Now.AddDays(7),
                 signingCredentials: creds
             );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-
 
     }
 }

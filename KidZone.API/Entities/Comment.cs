@@ -15,7 +15,7 @@ namespace KidZone.Domain.Entities
         public string TextComment { get; set; }
         public DateTime CommentDate { get; set; }
 
-        public int UserID { get; set; }
+        public string UserID { get; set; }
         [ForeignKey("UserID")]
         public User? User { get; set; }
 

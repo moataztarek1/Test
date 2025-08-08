@@ -6,7 +6,7 @@ using System.Reflection.Emit;
 
 namespace KidZone.API.Data
 {
-    public class DataContext:IdentityDbContext<User,IdentityRole<int>,int>
+    public class DataContext:IdentityDbContext<User>
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
         public DbSet<Child> Children { get; set; }
@@ -34,7 +34,8 @@ namespace KidZone.API.Data
                 .HasOne(f => f.User)
                 .WithMany(u => u.Favorites)
                 .HasForeignKey(f => f.UserID)
-                .OnDelete(DeleteBehavior.NoAction);
+                .IsRequired()
+                .OnDelete(DeleteBehavior.Cascade);
 
             builder.Entity<UserSubscription>()
                 .HasOne(s => s.Plan)
@@ -53,6 +54,12 @@ namespace KidZone.API.Data
             builder.Entity<Payment>()
                 .Property(p => p.Amount)
                 .HasPrecision(10, 2);
+
+            builder.Entity<Child>()
+                .HasOne(c => c.Parent)
+                .WithMany(p => p.Children)
+                .HasForeignKey(c => c.ParentID);
+
         }
 
     }

@@ -14,7 +14,7 @@ namespace KidZone.Domain.Entities
         [Key]
         public int RatingID { get; set; }
         public RatingType Type { get; set; } // like , dislike
-        public int UserID { get; set; }
+        public string UserID { get; set; }
         [ForeignKey("UserID")]
         public User? User { get; set; }
 

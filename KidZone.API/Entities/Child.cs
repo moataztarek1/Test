@@ -17,10 +17,9 @@ namespace KidZone.Domain.Entities
         [StringLength(20, MinimumLength = 3)]
         public string FName { get; set; }
         public string? LName { get; set; }
-        public AgeGroup Age_Group { get; set; }
         public string? AvatarUrl { get; set; }
 
-        public int ParentID { get; set; }
+        public string ParentID { get; set; }
         [ForeignKey("ParentID")]
         public User? Parent { get; set; }
 

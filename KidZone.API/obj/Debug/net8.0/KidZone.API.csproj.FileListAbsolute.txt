@@ -197,3 +197,4 @@ C:\Back-end\ITI Graduation Project\KidZone\KidZone.API\obj\Debug\net8.0\refint\K
 C:\Back-end\ITI Graduation Project\KidZone\KidZone.API\obj\Debug\net8.0\KidZone.API.pdb
 C:\Back-end\ITI Graduation Project\KidZone\KidZone.API\obj\Debug\net8.0\KidZone.API.genruntimeconfig.cache
 C:\Back-end\ITI Graduation Project\KidZone\KidZone.API\obj\Debug\net8.0\ref\KidZone.API.dll
+C:\Back-end\ITI Graduation Project\KidZone\KidZone.API\obj\Debug\net8.0\KidZone.API.sourcelink.json

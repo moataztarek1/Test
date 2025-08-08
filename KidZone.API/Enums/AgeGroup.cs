@@ -8,8 +8,9 @@ namespace KidZone.Domain.Enums
 {
     public enum AgeGroup
     {
-        Age3_5 = 1,
-        Age6_9 = 2,
-        Age10Plus = 3
+        Group3To5 = 1,
+        Group6To8 = 2,
+        Group9To12 = 3,
+        Group13To15 = 4
     }
 }

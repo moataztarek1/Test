@@ -15,6 +15,9 @@ namespace KidZone.Domain.Entities
         public string Title { get; set; }
         public string? Description { get; set; }
         public ContentAccessType ContentType { get; set; }
+
+        public DateTime? CreatedAt { get; set; }
+
         public virtual Video? Video { get; set; }
         public virtual Story? Story { get; set; }
 

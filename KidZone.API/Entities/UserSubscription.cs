@@ -13,13 +13,15 @@ namespace KidZone.Domain.Entities
     {
         [Key]
         public int ID { get; set; }
-        public int UserID { get; set; } 
+        public string UserID { get; set; }
+        public User? User { get; set; }
         public int Sub_Plan_ID { get; set; }
-        public SubscriptionStatus Status { get; set; }
-        public DateTime Start_Date { get; set; }
-        public DateTime End_Date { get; set; }
-
         public SubscriptionPlan? Plan { get; set; }
+
+        public SubscriptionStatus Status { get; set; }
+        public DateTime? Start_Date { get; set; }
+        public DateTime? End_Date { get; set; }
+
         public ICollection<Payment> Payments { get; set; }
     }
 

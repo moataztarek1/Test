@@ -22,15 +22,16 @@ namespace KidZone.API.Services
                 return null;
             }
         }
-
-        public int? GetCurrentUserId()
+        public string? GetCurrentUserId()
         {
-            return UserId;
+            return _httpContextAccessor.HttpContext?.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
         }
 
-        //public string? GetCurrentUserId()
+        //public int? GetCurrentUserId()
         //{
-        //    return _httpContextAccessor.HttpContext?.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        //    return UserId;
         //}
+
+
     }
 }
